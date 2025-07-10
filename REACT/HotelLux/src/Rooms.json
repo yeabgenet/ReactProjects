@@ -1,0 +1,92 @@
+[
+    {
+        "id":"1",
+        "type":"Economy",
+        "tittle":"Ocean View",
+        "images":"/Images/rooms-1.jpg",
+        "description":"random description like you will like it , it have this and that jacuzie and massage",
+        "adults":2,
+        "size":"95 ft",
+        "price":49,
+        "photos":[
+            "/Images/rooms-1.jpeg",
+             "/Images/rooms-1-photo-1.jpg",
+             "/Images/rooms-1-photo-2.jpg"
+        ]
+    },
+    {
+        "id":"2",
+        "type":"Luxury",
+        "tittle":"Sunset Suite",
+        "images":"/Images/rooms-2.jpg",
+        "description":"random description like you will like it , it have this and that jacuzie and massage",
+        "adults":2,
+        "size":"65 ft",
+        "price":45,
+        "photos":[
+            "/Images/rooms-2.jpeg",
+             "/Images/rooms-2-photo-1.jpg",
+             "/Images/rooms-2-photo-2.jpg",
+             "/Images/rooms-2-photo-3.jpg"
+        ]
+    },  
+     {
+        "id":"3",
+        "type":"Standard",
+        "tittle":"Beachfront Bliss",
+        "images":"/Images/rooms-3.jpg",
+        "description":"random description like you will like it , it have this and that jacuzie and massage",
+        "adults":3,
+        "size":"95 ft",
+        "price":59,
+        "photos":[
+            "/Images/rooms-3.jpeg",
+             "/Images/rooms-3-photo-1.jpg"
+        ]
+    },
+    {
+        "id":"4",
+        "type":"Economy",
+        "tittle":"Coastral Retreat",
+        "images":"/Images/rooms-4.jpg",
+        "description":"random description like you will like it , it have this and that jacuzie and massage",
+        "adults":2,
+        "size":"105 ft",
+        "price":99,
+        "photos":[
+            "/Images/rooms-4.jpeg",
+             "/Images/rooms-4-photo-1.jpg"
+            
+        ]
+    },
+    {
+        "id":"5",
+        "type":"Luxury",
+        "tittle":"Seaside Heaven",
+        "images":"/Images/rooms-5.jpg",
+        "description":"random description like you will like it , it have this and that jacuzie and massage",
+        "adults":3,
+        "size":"75 ft",
+        "price":89,
+        "photos":[
+            "/Images/rooms-5.jpeg",
+             "/Images/rooms-5-photo-1.jpg"
+  
+        ]
+    },
+    {
+    "id":"6",
+    "type":"Standard",
+    "tittle":"Tropical Escape",
+    "images":"/Images/rooms-6.jpg",
+    "description":"random description like you will like it , it have this and that jacuzie and massage",
+    "adults":2,
+    "size":"50 ft",
+    "price":39,
+    "photos":[
+        "/Images/rooms-6.jpeg",
+         "/Images/rooms-6-photo-1.jpg"
+
+    ]
+    }
+]
