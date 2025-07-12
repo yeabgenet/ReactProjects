@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import {BrowserRouter as Router , Routes , Route } from 'react-router'
+import {BrowserRouter as Router , Routes , Route } from 'react-router-dom'
 import Nav from './Components/Nav/Nav'
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
     <Router>
       <Nav/>
       <Routes>
-        <Route /* path='' element={} *//>
+        <Route></Route>
       </Routes>
     </Router>
     </>
