@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import {BrowserRouter as Router , Routes , Route } from 'react-router-dom'
 import Nav from './Components/Nav/Nav'
+import Index from './Components/Pages/Index'
 
 function App() {
   
@@ -10,7 +11,7 @@ function App() {
     <Router>
       <Nav/>
       <Routes>
-        <Route></Route>
+        <Route path='/' element={<Index/>} ></Route>
       </Routes>
     </Router>
     </>
