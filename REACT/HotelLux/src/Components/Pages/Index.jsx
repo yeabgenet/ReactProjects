@@ -4,7 +4,7 @@ import 'react-datepicker/dist/react-datepicker.css';
 
 import { Link } from 'react-router-dom';
 
-import sercive1 from '../../assets/services-1.jpg';
+import service1 from '../../assets/services-1.jpg';
 import sercive2 from '../../assets/services-2.jpg';
 import sercive3 from '../../assets/services-3.jpg';
 import sercive4 from '../../assets/services-4.jpg';
@@ -27,6 +27,7 @@ function Index() {
   
 
   return (
+    <>
     <div className="hero w-full lg:px-[12%] px-[8%] py-16 flex items-center justify-center min-h-screen">
       <div className="hero-content w-full flex flex-col gap-4 z-10 relative">
         <span className="text-[#204f5e] bg-[#d5f1f1] w-fit py-1 px-3 rounded-full text-sm lg:text-base">
@@ -98,14 +99,37 @@ function Index() {
             type="submit"
             className="bg-sky-400 text-white  rounded-full text-2xl w-xl-[100px] h-xl-[100px] w-[60px] h-[60px]"
           >
-            <i className='bi bi-search'></i>
+            <i className='bi bi-search '></i>
           </button>
         </form>
-        <p className='text-[#5e8695] text-base '>
+        <p className='text-[#5e8695] text-base mt-2 '>
           Accusantium doloremque laudantium, totam rem aperiam eaque ipsa
         </p>
       </div>
     </div>
+
+    <div className="service w-full lg:px-[12%] px-[8%] py-[150px] flex flex-col items-center justify-center gap-20">
+
+    <div className="section-title text-center w-full space-y-4 ">
+      <span className='bg-[#d5f1f1] rounded-full px-5 py-2 font-bricolage tracking-wider text-sm uppercase'>Service</span>
+      <h1 className='text-5xl font-semibold'>
+        Discover the touch of nature
+      </h1>
+    </div>
+
+    <div className='service-wrapper grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4 md:gap-6 lg:gap-10 w-full'>
+      <div className="service-item relative rounded-lg overflow-hidden">
+        <img src={service1} alt="service-image" className='w-full h-[250px] object-cover rounded-lg' />
+        <span className='absolute bottom-5 left-1/2 transoform -translate-x-1/2 bg-white text-center rounded-full py-1 text-sm font-medium text-[#204f5e] teacking-widest uppercase w-[90%] max-w-[250px]'>
+       Beach restaurant
+        </span>
+      </div>
+    </div>
+
+    </div>
+
+    </>
+
   );
 }
 
