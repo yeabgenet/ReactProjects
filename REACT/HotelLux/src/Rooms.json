@@ -9,7 +9,7 @@
         "size":"95 ft",
         "price":49,
         "photos":[
-            "/Images/rooms-1.jpeg",
+            "/Images/rooms-1.jpg",
              "/Images/rooms-1-photo-1.jpg",
              "/Images/rooms-1-photo-2.jpg"
         ]
@@ -24,7 +24,7 @@
         "size":"65 ft",
         "price":45,
         "photos":[
-            "/Images/rooms-2.jpeg",
+            "/Images/rooms-2.jpg",
              "/Images/rooms-2-photo-1.jpg",
              "/Images/rooms-2-photo-2.jpg",
              "/Images/rooms-2-photo-3.jpg"
@@ -40,7 +40,7 @@
         "size":"95 ft",
         "price":59,
         "photos":[
-            "/Images/rooms-3.jpeg",
+            "/Images/rooms-3.jpg",
              "/Images/rooms-3-photo-1.jpg"
         ]
     },
@@ -54,7 +54,7 @@
         "size":"105 ft",
         "price":99,
         "photos":[
-            "/Images/rooms-4.jpeg",
+            "/Images/rooms-4.jpg",
              "/Images/rooms-4-photo-1.jpg"
             
         ]
@@ -69,7 +69,7 @@
         "size":"75 ft",
         "price":89,
         "photos":[
-            "/Images/rooms-5.jpeg",
+            "/Images/rooms-5.jpg",
              "/Images/rooms-5-photo-1.jpg"
   
         ]
@@ -84,7 +84,7 @@
     "size":"50 ft",
     "price":39,
     "photos":[
-        "/Images/rooms-6.jpeg",
+        "/Images/rooms-6.jpg",
          "/Images/rooms-6-photo-1.jpg"
 
     ]
